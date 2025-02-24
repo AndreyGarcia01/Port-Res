@@ -39,7 +39,3 @@ Configurar o servidor utilizando Node.js/Express ou Python/Flask.
 Criar endpoints para login, exibição de regras portuárias, informações de contato e empresas parceiras.
 Integrar com o banco de dados para armazenar e recuperar dados.
 Implementar a autenticação de usuários com JWT.
-Tarefa Comum:
-
-Ambos os responsáveis podem colaborar em testes de integração, verificando se a comunicação entre o front-end e o back-end está funcionando corretamente.
-Configuração do ambiente de desenvolvimento e deploy utilizando Docker e GitHub.
