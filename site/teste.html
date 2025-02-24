@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css.css">
+      <script src="js.js"></script>
+      <title>Tarefas do Dia!</title>
+   </head>
+   <body>
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="men" viewBox="0 0 16 16" onclick="openMenu()">
+         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+      </svg>
+
+      <nav>
+         <ul id="navbar">
+            <li><a href="#" onclick="thankMe()">Página inicial</a></li>
+            <li><a href="#" onclick="aboutMe()">Sobre</a></li>
+            <li><a href="#" onclick="contactMe()">Contato</a></li>
+            <li><a href="#" onclick="getOut()">Sair</a></li>      
+         </ul>
+      </nav>
+
+ <div id="message">Feito dia 17/10/24 por Andrey Garcia dos Santos</div>
+      <div id="contato">
+         <ul id="list-contact">
+            <li> Instagram: @anndreyg </li>
+            <li> GitHub: AndreyGarcia01 </li>
+            <li> Linkedin: Andrey Garcia dos Santos </li>
+         </ul>
+  </div>
+
+      <div id="thanks">Obrigado por usar nossos serviços :)</div>
+      <p class="pir" style="position: absolute;"> Tarefas do dia! </p>
+      
+  <div class="menu">
+         <input type="text" id="taskInput" placeholder="Digite sua tarefa aqui">
+         <button onclick="addTask()">Adicionar Tarefa</button>
+  </div>
+
+      <div class="quadrado">
+         <button class="font-button" onclick="myFunction()"> Show Menu </button>
+      </div>
+      
+
+      <ul id="lista" style="display: none;"></ul>
+<div class="mun">
+   <input type="email" id="emailInput" placeholder="Seu e-mail aqui" required>
+   <form id="emailForm" method="post" style="display: inline-block;">
+      <input type="submit" value="Send email" onclick="sendTasks(event)" />
+   </form>
+</div>
+
+      <footer id="footer">Ultimo Update feito dia 14/11/24</footer>
+      <button onclick="openExcel()" style="position: absolute; top: 50px; right: 80px;">Download Account</button>
+      <button onclick="openEpda()" style="position: absolute; top: 90px; right: 80px;">Download EPDA</button>
+      <button onclick="openPortGuide()" style="position: absolute; top: 130px; right: 80px;">Download Port Guide</button>
+      <button onclick="openCusteio()" style="position: absolute; top: 170px; right: 80px;">Download Custeio</button>
+      <hr class="vl">
+      </hr>
+      <hr class="vx">
+      </hr>
+      <hr class="vc">
+      </hr>
+
+      <div class="rp" style="position: absolute;">
+      <p>Confira aqui as Regras do Porto <a href="C:\Users\AndreydosSantos\Downloads\site\teste2.html">Regras Porto</a>.</p>
+      </div>
+
+      <p class="pt" style="position: absolute;">Escolha qual porto você quer verificar:</p>
+      
+<div class="todosportos" style="position: absolute;">
+     <form>
+         <input type="radio" name="bl" value="São Francisco">
+         São Francisco
+         <br>
+         <input type="radio" name="bl" value="Rio Grande">
+         Rio Grande
+         <br>
+         <input type="radio" name="bl" value="Porto Alegre">
+         Porto Alegre
+         <br>
+         <input type="radio" name="bl" value="Imbituba">
+         Imbituba
+         <br>
+         <input type="radio" name="bl" value="Santos">
+         Santos
+         <br>
+         <input type="radio" name="bl" value="Paranaguá">
+         Paranaguá
+         <br>
+         <input type="radio" name="bl" value="Vitória">
+         Vitória
+         <br>
+         <input type="radio" name="bl" value="Salvador">
+         Salvador
+         <br>
+         <input type="radio" name="bl" value="São Luiz">
+         São Luiz
+         <br>
+         <input type="radio" name="bl" value="Vila do Conde">
+         Vila do Conde
+         <br>
+         <input type="radio" name="bl" value="Santarém">
+         Santarém
+         <br>
+         <input type="radio" name="bl" value="Itacoatiara">
+         Itacoatiara
+         <br>
+     </form>
+   
+      <div>
+      <div class="po" style="position: absolute;">
+         <button type="button" onclick="displaySelectedPort()"> Confirmar </button>
+      </div>
+      <div id="selectedPortMessage" style="position: absolute; top: 330px; left: 28%;"></div>
+</body>
+</html>

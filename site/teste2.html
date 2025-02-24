@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="site2css.css">
+      <script src="site2js.js"></script>
+      <title>Regras Porto</title>
+   </head>
+   <body>
+ <div class="goback-mn-bt"> 
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16" onclick="gobackTo()" style="cursor: pointer;">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+</svg>
+</div>
+
+<p class="pt" style="position: absolute;">Escolha qual Empresa você quer verificar:</p>
+      
+<div class="todasemp" style="position: absolute;">
+     <form>
+         <input type="radio" name="bl" value="Enbel">
+         Enbel
+         <br>
+         <input type="radio" name="bl" value="Ultimar">
+         Ultimar
+         <br>
+         <input type="radio" name="bl" value="Alphamar">
+         Alphamar
+         <br>
+     </form>
+   
+      <div>
+      <div class="po" style="position: absolute;">
+         <button type="button" onclick="displaySelectedPort()"> Confirmar </button>
+      </div>
+      <div id="selectedPortMessage" style="position: absolute; top: 330px; left: 28%;"></div>
+
+  </body>
+  </html>

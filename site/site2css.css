@@ -1,0 +1,36 @@
+.goback-mn-bt{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.goback-mn-bt:hover {
+    transform: scale(1.2); /* Aumenta um pouco o tamanho ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+   background-color: grey; 
+   transition: 0.5s;
+   opacity: 0.8;
+}
+
+
+.select_box_1{
+
+         margin-top: 20px;
+
+}
+
+.todasemp{
+
+position: absolute; 
+top: 93px; 
+left: 1%;
+
+}
+
+.po{
+
+top: 70px;
+}

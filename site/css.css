@@ -1,0 +1,243 @@
+  .menu{
+
+     margin-top: 6px;
+     margin-left: 0.0rem;
+     display: inline-block;
+    
+}
+
+ .men{
+
+     margin-top: 6px;
+     margin-left: 0.0rem;
+     display: inline-block;
+    
+}
+
+.men:hover {
+    transform: scale(1.2); /* Aumenta um pouco o tamanho ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  
+}
+
+   .quadrado{
+
+               color: black;    
+               margin-top: 90px;
+               margin-left: 5px;
+               display: inline-block;
+                  
+            }
+
+
+        .pir{
+           margin-top: 50px;
+           margin-left: 8px;
+           font-size: 16px;
+           font-family: Arial;
+           color: black;
+           position: fixed;
+ 
+ }
+
+      
+
+      #lista {
+        list-style-type: none; /* Remove os marcadores da lista */
+        padding: 0; /* Remove o espaçamento padrão */
+        color: black;
+        font-size: 17px;
+        font-family: Arial;
+        margin-left: 20px;
+    }
+
+    #lista li {
+        margin-bottom: 10px; /* Espaçamento entre os checkboxes */ 
+} 
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;  
+  color: black;
+  font-size: 10px;
+  font-family: Arial;        
+}
+
+#navbar{
+
+ list-style-type: none; /* Remove os marcadores da lista */
+        padding: 0; /* Remove o espaçamento padrão */
+        color: black;
+        font-size: 14px;
+        font-family: verdana;
+        margin-left: 32px;
+        margin-top: -25px;
+        display: none;
+        position: absolute;
+        transition: opacity 100s ease, visibility 5s ease;
+    }
+
+ #navbar li {
+        display: inline; /* Exibe os itens lado a lado */
+        margin-right: 15px; /* Espaço entre os itens */
+    }
+
+#navbar.show {
+    opacity: 1s; /* Torna visível */
+    visibility: visible; /* Permite interação */
+    transition: opacity 100s ease;
+}
+
+
+  #message {
+            display: none; /* Esconde a mensagem inicialmente */
+            position: fixed; /* Fixa a mensagem na tela */
+            top: 50%; /* Centraliza verticalmente */
+            left: 50%; /* Centraliza horizontalmente */
+            transform: translate(-50%, -50%); /* Ajusta a posição */
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+            color: white; /* Cor do texto */
+            border-radius: 5px; /* Bordas arredondadas */
+        }
+
+
+
+ #list-contact {
+        list-style-type: none; /* Remove os marcadores da lista */
+        padding: 0; /* Remove o espaçamento padrão */
+        margin-right: 15px;
+    }
+
+
+ #contato {
+            display: none; /* Esconde a mensagem inicialmente */
+            position: fixed; /* Fixa a mensagem na tela */
+            top: 50%; /* Centraliza verticalmente */
+            left: 50%; /* Centraliza horizontalmente */
+            transform: translate(-50%, -50%); /* Ajusta a posição */
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+            color: white; /* Cor do texto */
+            border-radius: 5px; /* Bordas arredondadas */
+        }
+
+
+  #thanks {
+            display: none; /* Esconde a mensagem inicialmente */
+            position: fixed; /* Fixa a mensagem na tela */
+            top: 50%; /* Centraliza verticalmente */
+            left: 50%; /* Centraliza horizontalmente */
+            transform: translate(-50%, -50%); /* Ajusta a posição */
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+            color: white; /* Cor do texto */
+            border-radius: 5px; /* Bordas arredondadas */
+        }
+
+
+
+.vl {
+  border-left: 1px solid black;
+  height: 707px;
+  position: absolute;
+  left: 28%;
+  margin-left: -3px;
+  top: 0;
+}
+
+
+.vx {
+  border-left: 1px solid black;
+  height: 200px;
+  position: absolute;
+  Right: 14.8%;
+  margin-left: -3px;
+  top: 0;
+}
+
+
+.vc{
+ 
+    width: 222px;
+    position: absolute;  
+    Right: 5px;
+    top: 201px;
+    border-left: 1px solid black;
+    margin-left: -3px;
+}
+
+
+.rp {
+ 
+    position: fixed; /* Permite o uso de top, left, etc. */
+    margin-left: 28%;
+    top: 10px;
+}
+
+.todosportos{
+
+  color: black;
+  font-size: 14px;
+  font-family: Arial; 
+  position: fixed; /* Permite o uso de top, left, etc. */
+  margin-left: 28%;
+  top: 150px;
+       
+}
+
+.pt{
+
+  color: black;
+  font-size: 15px;
+  font-family: Arial; 
+  position: fixed; /* Permite o uso de top, left, etc. */
+  margin-left: 28%;
+  top: 110px;
+}
+
+
+.po{
+
+  position: fixed;
+  margin-left: 0%;
+  top: 255px;
+}
+
+#selectedPortMessage p {
+    white-space: pre-wrap; /* Não permite que o texto quebre em várias linhas */
+    color: black;
+    font-size: 15px;
+    font-family: Arial;
+    Background-color: rgba(0, 0, 0, 0);
+    height: 200px;
+    width: 1030px;
+
+ }
+
+.closebutton {
+    background-color: #f44336; /* Vermelho */
+    color: black; /* Texto branco */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 8px 12px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    margin-bottom: 30px; /* Margem superior */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+
+  .mun {
+            position: absolute; /* Corrigido */
+            margin-top: 15px; /* Espaço para baixo */
+            
+        }
+
+        .mun input[type="email"], .mun input[type="submit"] {
+            display: inline-block; /* Alinha os itens lado a lado */
+            margin-right: 0px; /* Espaço entre os itens */
+        }
+
+
